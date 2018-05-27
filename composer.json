@@ -1,0 +1,36 @@
+{
+    "name": "sijad/flarum-ext-jalali",
+    "description": "Jalali date for Flarum.",
+    "type": "flarum-extension",
+    "keywords": ["jalali", "shamsi", "flarum-extension", "persian-flarum"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sajjad Hashemian",
+            "email": "wolaws@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sijad/flarum-ext-jalali/issues",
+        "source": "https://github.com/sijad/flarum-ext-jalali"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sijad\\Jalali\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Jalali",
+            "icon": {
+                "name": "sun-o",
+                "backgroundColor": "#FFA000",
+                "color": "#fff"
+            }
+
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "flarum-jalali",
+  "devDependencies": {
+    "moment-jalaali": "~0.7.0"
+  }
+}
